@@ -1,0 +1,46 @@
+:root {
+  --primary-custom-color: #1e1e1e;
+  --secondary-custom-color: #fdb142;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bg-custom-primary {
+  background-color: var(--primary-custom-color) !important;
+}
+
+.navbar {
+  background-color: var(--primary-custom-color) !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: var(--bs-warning) !important;
+}
+
+.nav-link:hover {
+  color: var(--bs-warning) !important;
+}
+
+#map {
+  height: 24rem;
+}
+
+
+.form-control:focus {
+  border-color: var(--bs-warning) !important;
+  box-shadow: none;
+}
+
+.form-label {
+  margin-bottom: 3px;
+}
+
+.form-floating .form-control {
+}
